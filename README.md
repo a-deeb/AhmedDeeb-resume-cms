@@ -5,7 +5,7 @@ Gatsby Starter Resume CMS is a free starter template with  Netlify CMS as headle
 
 [Demo](https://gatsby-resume-starter.netlify.com/)
 
-[Customization and Theming](https://barancezayirli.com/free-gatsby-resume-starter-with-netlify-cms/#customization)
+[Customization and Theming](https://AhmedDeeb.com/free-gatsby-resume-starter-with-netlify-cms/#customization)
 
 ## Features
 
@@ -27,7 +27,7 @@ Use the Gatsby CLI to create a new site, specifying the resume starter.
 
 ```shell
 # create a new Gatsby site using the blog starter
-gatsby new my-resume https://github.com/barancezayirli/gatsby-starter-resume-cms
+gatsby new my-resume https://github.com/AhmedDeeb/gatsby-starter-resume-cms
 ```
 
 ### Start developing
@@ -43,18 +43,18 @@ gatsby develop
 
 The resume content is generated from `data/profile.json` file. You can manually edit this file or setup Netlify CMS for online editing.
 
-You can find more information on resume widgets and theming [here](https://barancezayirli.com/free-gatsby-resume-starter-with-netlify-cms/#customization).
+You can find more information on resume widgets and theming [here](https://AhmedDeeb.com/free-gatsby-resume-starter-with-netlify-cms/#customization).
 
 ### Netlify CMS as Headless CMS
 
 To use Netlify CMS  you’ll need to deploy to Netlify through GitHub, Gitlab or Bitbucket, set up continuous deployment, and do a few configuration. For Github:
 
-Open `static/admin/config.yml`. Replace `barancezayirli/gatsby-resume-tailwind` with your GitHub username and project name. This step is important for managing and deploying the Netlify CMS interface.
+Open `static/admin/config.yml`. Replace `AhmedDeeb/gatsby-resume-tailwind` with your GitHub username and project name. This step is important for managing and deploying the Netlify CMS interface.
 
 ```yaml
 backend:
   name: github
-  repo: barancezayirli/gatsby-resume-tailwind #TODO replace this with your own repo
+  repo: AhmedDeeb/gatsby-resume-tailwind #TODO replace this with your own repo
 ```
 
 Publish your repo to Github, then, open [Netlify](app.netlify.com) and add a “New site from Git”. Choose your newly created repo and click on “Deploy site” with the default deployment settings.
@@ -63,5 +63,5 @@ Finally need to set up an OAuth application on GitHub. Start development build w
 
 If it doesn't work, the instructions for setting up OAuth can be found here: [Netlify’s Using an Authorization Provider](https://www.netlify.com/docs/authentication-providers/#using-an-authentication-provider).
 
-I hope you enjoy the resume template, if you do please follow me on [twitter](https://twitter.com/barancezayirli) and send me your results.
+I hope you enjoy the resume template, if you do please follow me on [twitter](https://twitter.com/AhmedDeeb) and send me your results.
 I would love to see it!
