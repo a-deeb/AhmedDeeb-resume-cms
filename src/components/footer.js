@@ -17,7 +17,7 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">by</span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
-        href="https://AhmedDeeb.com"
+        href="https://ahmeddeeb.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
